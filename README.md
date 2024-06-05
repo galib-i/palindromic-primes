@@ -11,7 +11,7 @@ Although the time complexity is O(n^3), it outperforms other solutions with the 
 They are explained in the code itself, but in short:
 
 #### Palindrome Generation
-For each palindrome with three or more digits, there exists a shorter palindrome nested within it. For example, the palindrome 13231 contains the palindrome 323, which in turn contains the digit 2. Even-digit palindromes are avoided as they are all multiples of 11.
+Utilises the concept that for each palindrome with three or more digits, there exists a shorter palindrome nested within it. For example, the palindrome 13231 contains the palindrome 323, which in turn contains the digit 2. Even-digit palindromes are avoided as they are all multiples of 11.
 
 #### Primality Check
 Utilises Fermat's Little Theorem on a filtered list of palindromes, avoiding all failures (false positives).
