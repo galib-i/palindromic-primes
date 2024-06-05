@@ -87,7 +87,7 @@ def generate_palindromes_in_digit(current_digit, upper_limit, palindromes):
 
 
 def generate_palindromes(upper_limit, digits):
-    """Returns a flattened list of palindromes between 2 and n, populate with sublists
+    """Returns a flattened list of palindromes between 1 and n, populate with sublists
     of palindromes with the same digit count - as per iteration"""
     palindromes = []
 
